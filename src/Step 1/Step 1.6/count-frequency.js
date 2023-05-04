@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+
 /*
     Enter N: 6
     10
@@ -12,7 +12,7 @@ const prompt = require('prompt-sync')();
     15 = 1
 
 */
-
+const prompt = require('prompt-sync')();
 const n = prompt('Enter N: ');
 
 const arr = [];
