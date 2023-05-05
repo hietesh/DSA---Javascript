@@ -33,7 +33,7 @@ function k_highFrequency(arr,k){
         map.set(max_key,0);
         output.push(max_key);
     }
-    return output;
+    return output ; 
 }
 
 console.log(k_highFrequency(arr,2));
