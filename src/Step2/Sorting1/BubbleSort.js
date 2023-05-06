@@ -26,16 +26,5 @@ function bubbleSort(arr){
     }
 }
 
-// tale the element and place it in it's correct order
-function insertionSort(arr){       
-    for(let i=1;i<n;i++){
-       for(let j=i;j>0;j--){
-          if(arr[j] < arr[j-1]){
-             swap(j,j-1,arr);
-          }     
-       } 
-    }
-}
-
 insertionSort(arr);
 console.log(arr);
